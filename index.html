@@ -155,7 +155,7 @@
         function pop_NBNAtlas20072015SwiftRecords_2(feature, layer) {
             var popupContent = '<table>\
                     <tr>\
-                        <th scope="row">Start date</th>\
+                        <th scope="row">Date</th>\
                         <td>' + (feature.properties['Start date'] !== null ? autolinker.link(feature.properties['Start date'].toLocaleString()) : '') + '</td>\
                     </tr>\
                     <tr>\
@@ -163,19 +163,19 @@
                         <td>' + (feature.properties['Year'] !== null ? autolinker.link(feature.properties['Year'].toLocaleString()) : '') + '</td>\
                     </tr>\
                     <tr>\
-                        <th scope="row">OSGR</th>\
+                        <th scope="row">Grid Reference</th>\
                         <td>' + (feature.properties['OSGR'] !== null ? autolinker.link(feature.properties['OSGR'].toLocaleString()) : '') + '</td>\
                     </tr>\
                     <tr>\
-                        <th scope="row">Individual</th>\
+                        <th scope="row">Count</th>\
                         <td>' + (feature.properties['Individual'] !== null ? autolinker.link(feature.properties['Individual'].toLocaleString()) : '') + '</td>\
                     </tr>\
                     <tr>\
-                        <th scope="row">OSGR 1km</th>\
+                        <th scope="row">Grid Reference 1km</th>\
                         <td>' + (feature.properties['OSGR 1km'] !== null ? autolinker.link(feature.properties['OSGR 1km'].toLocaleString()) : '') + '</td>\
                     </tr>\
                     <tr>\
-                        <th scope="row">Record Typ</th>\
+                        <th scope="row">RecordType</th>\
                         <td>' + (feature.properties['Record Typ'] !== null ? autolinker.link(feature.properties['Record Typ'].toLocaleString()) : '') + '</td>\
                     </tr>\
                 </table>';
